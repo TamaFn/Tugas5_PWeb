@@ -1,0 +1,12 @@
+{
+  "name": "tugas5_pweb",
+  "version": "1.0.0",
+  "description": "Make a Form Validation using html, tailwindcss, and javascript",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./styles.css -o ./dist/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Landing Page -->
+    <div class="flex justify-center items-center layout h-screen">
+        <div class="flex flex-col lg:flex-row justify-between items-center  w-full gap-10 ">
+            <div class="flex flex-col items-center w-[302px]">
+                <img src="img/3.png">
+            </div>
+            <div
+                class="flex flex-col items-center gap-5 px-[30px] py-[30px] rounded-lg shadow-[4px_4px_40px_0px_rgba(0,0,0,0.20)]">
+                <div class="flex items-center justify-center  py-[30px] px-5 w-full ">
+                    <h2 class="font-main font-bold text-xl">Pengisian Informasi Mahasiswa</h2>
+                </div>
+                <div class="flex items-center flex-col gap-[20px]">
+                    <form class="w-[500px]">
+                        <div
+                            class="flex flex-col items-start gap-2 mb-[20px] border-none focus:ring-2 focus:ring-inset focus:ring-blue-main">
+                            <label class="font-main font-semibold text-base ">Nama</label>
+                            <input class="w-full border rounded-md px-4 py-2" required id="name">
+                        </div>
+                        <div class="flex flex-col items-start gap-2 mb-[20px]">
+                            <label class="font-main font-semibold text-base ">NRP</label>
+                            <input class="w-full border rounded-md px-4 py-2" required id="NRP">
+                        </div>
+                        <div class="flex flex-col items-start gap-2 mb-[20px]">
+                            <label class="font-main font-semibold text-base ">Email</label>
+                            <input type="email" class="w-full border rounded-md px-4 py-2" required id="Email">
+                        </div>
+                        <div class="flex flex-col items-start gap-2 mb-[20px]">
+                            <label class="font-main font-semibold text-base ">Jurusan</label>
+                            <select name="Jurusan" id="Jurusan" class="w-full border rounded-md px-4 py-2" required>
+                                <option disable selected hidden class="font-main font-semibold text-base">Pilih Jurusan
+                                </option>
+                                <option class="font-main font-semibold text-base" value="Teknik Informatika">Teknik
+                                    Informatika</option>
+                                <option class="font-main font-semibold text-base" value="Sistem Informasi">Sistem
+                                    Informasi</option>
+                                <option class="font-main font-semibold text-base" value="Teknik Komputer">Teknik
+                                    Komputer</option>
+                                <option class="font-main font-semibold text-base" value="Teknologi Informasi">Teknologi
+                                    Informasi</option>
+                                <option class="font-main font-semibold text-base" value="Biomedic">Biomedik</option>
+                            </select>
+                        </div>
+                        <div class="flex flex-col items-start gap-2 mb-[50px]">
+                            <label class="font-main font-semibold text-base ">Dosen</label>
+                            <input class="w-full border rounded-md px-4 py-2" required id="Dosen">
+                        </div>
+                        <div class="">
+                            <a href="#" class="w-full">
+                                <button type="submit" class="flex w-full p-[10px] justify-center items-center font-main font-semibold text-base bg-blue-main
+                            rounded-lg text-white hover:bg-blue-secondary">Submit
+                                </button>
+                            </a>
+                        </div>
+                    </form>
+                    <div class="flex flex-col justify-center items-center gap-[30px] w-full">
+                        <div class="flex items-start gap-[10px] justify-center">
+                            <h4 class="font-main font-semibold text-lg text-black">Anda belum terdaftar?</h4>
+                            <a href="#"
+                                class="font-main font-semibold text-lg text-blue-secondary hover:opacity-70">Daftar
+                                Disini</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
